@@ -8,12 +8,12 @@ ca_style.innerHTML = `
 }
 .main-nowPlayingBar-container {
     background-size: 100%;
-    background-image: linear-gradient(to right, var(--cover-ambience-color) 0, var(--spice-player) 280px, var(--spice-player) 100%) !important;
+    background-image: linear-gradient(to right, var(--cover-ambience-color) 0, var(--spice-player) 400px, var(--spice-player) 100%) !important;
     position: relative;
     z-index: 100;
 }
 .main-nowPlayingBar-container:before {
-    background-image: linear-gradient(to right, var(--cover-ambience-color-before) 0, var(--spice-player) 280px, var(--spice-player) 100%);
+    background-image: linear-gradient(to right, var(--cover-ambience-color-before) 0, var(--spice-player) 400px, var(--spice-player) 100%);
     border-radius: var(--border-radius-1) !important;
     content: "";
     display: block;
